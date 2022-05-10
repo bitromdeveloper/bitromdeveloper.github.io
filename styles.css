@@ -1,0 +1,116 @@
+html{
+	width: 100%;
+	height: 100%;
+	background-color: #F8ECD1;
+}
+
+body {
+	width: 100%;
+	min-width: 400px;
+	height: 90%;
+}
+
+#contenedor-iconos{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#titulo-general{
+	font-family: sans-serif;
+	text-shadow: 1px 2px 1px #AC7D88;
+	color: #85586F;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contenedor-general{
+	width: 90%;
+	height: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.contenedor-contenedor{
+	height: 60%;
+
+}
+
+.contenedor-texto{
+	width: 80%;
+	height: 80%;
+	margin: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2%;
+
+}
+
+.contenedor-texto textarea {
+	padding: 1%;
+	width: 100%;
+	height: 100%;
+	font-size: 1.3em;
+	font-style: italic;
+	text-align: center;
+	background-color: #DEB6AB;
+	border: none;
+	resize: none;
+	border-radius: 30px;
+
+
+}
+
+.contenedor-botones{
+	width: 90%;
+	height: 30%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2%;
+
+}
+
+.boton-uno{
+	font-size: 1.3em;
+    background-color: #85586F; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 15px;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.boton-dos{
+	font-size: 1.3em;
+    background-color: #AC7D88; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 15px;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

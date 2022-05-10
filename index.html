@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Encriptador</title>
+</head>
+<body>
+	<header>
+		<h1 id="titulo-general">Encriptador de texto</h1>
+		<div id="contenedor-iconos">
+			<a href="https://www.linkedin.com/in/lucas-finamore/" id="linkedinimg" target="_blank"><img src="imagenes/linkedin_icon.png"></a>
+			<a href="https://github.com/bitrom14" id="githubimg" target="_blank"><img src="imagenes/github_icon.png"></a>
+		</div>
+	</header>
+	<div id="contenedor-general">
+		<div class="contenedor-contenedor">
+			<div class="contenedor-texto">
+				<textarea id="texto-superior" placeholder="Ingrese el texto que desea encriptar"></textarea>
+			</div>
+			<div class="contenedor-botones">
+				<button class="boton-uno" onclick="btnEncriptar()">Encriptar</button>
+				<button class="boton-dos" onclick="btnCopiarSuperior()">Copiar</button>
+			</div>
+		</div>
+		<div class="contenedor-contenedor">
+			<div class="contenedor-texto">
+				<textarea id="texto-inferior" placeholder="Ingrese el texto que desea desencriptar"></textarea>			
+			</div>
+			<div class="contenedor-botones">
+				<button class="boton-uno" onclick="btnDesencriptar()">Desencriptar</button>
+				<button class="boton-dos" onclick="btnCopiarInferior()">Copiar</button>
+			</div>
+		</div>	
+	</div>
+	<script src="script.js"></script>
+	
+	</body>
+
+</html>
